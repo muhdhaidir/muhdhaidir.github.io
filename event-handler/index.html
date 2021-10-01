@@ -15,6 +15,15 @@
     <label for="KataLaluan">Enter Password</label>
     <input type="password" id="KataLaluan" />
 
+    <a onclick="sayHi()" href="https://www.youtube.com" target="_blank" rel=">Youtube</a>
+
+    <script>
+        function sayHi(){
+            event.preventDefault();
+            alert("Hi! We stopped the default event!")
+        }
+    </script>
+
     <script src="js/event.js"></script>
   </body>
 </html>
