@@ -22,3 +22,4 @@ function checkPassword(){
 //traditional DOM event handler
 let elKL = document.getElementById("kataLaluan")
 elKL.onblur = checkPassword
+
